@@ -5,11 +5,14 @@
   "main": "./lib/PayPalButton.js",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/derrmru/paypal-smart-button-react"
   },
   "keywords": [
     "react",
-    "paypal"
+    "paypal",
+    "smart button",
+    "simple",
+    "easy setup"
   ],
   "license": "MIT",
   "scripts": {
