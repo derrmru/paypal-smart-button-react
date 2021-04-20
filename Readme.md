@@ -35,10 +35,12 @@ export default App;
 
 The props are of the following types:
 
+```
 price: number,
 description: string,
 clientId: string,
 currency: string  || this is a three digit currency code e.g. 'EUR', 'GBP' or 'USD'
+```
 
 ## Dependencies
 
