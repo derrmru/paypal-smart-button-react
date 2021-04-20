@@ -23,7 +23,7 @@ function App() {
   return (
       <PayPalButton 
         price={100}
-        description={'YOUR_PRODUCT_DESCRIPTION'}
+        description="YOUR_PRODUCT_DESCRIPTION"
         clientId="YOUR_PAYPAL_APP_CLIENT_ID"
         currency="USD"
        />
