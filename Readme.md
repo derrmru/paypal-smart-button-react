@@ -11,7 +11,7 @@ This is a PayPal smart button that just works.
 2. In your CLI and once navigated to your React JS project, install paypal-smart-button-react with the following command:
 
 ```javascript
-npm i paypal-smart-button-react
+npm i react-paypal-smart-button
 ```
 
 3. Implement in your app, as per the following example:

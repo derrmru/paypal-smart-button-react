@@ -1,5 +1,5 @@
 {
-  "name": "paypal-smart-button-react",
+  "name": "react-paypal-smart-button",
   "version": "1.0.0",
   "description": "A simple paypal button, easy and quick to set up.",
   "main": "./lib/PayPalButton.js",
@@ -16,7 +16,11 @@
     "paypal",
     "smart button",
     "simple",
-    "easy setup"
+    "easy setup",
+    "component",
+    "paypal smart buttons",
+    "react-component",
+    "react js paypal button"
   ],
   "license": "MIT",
   "scripts": {
