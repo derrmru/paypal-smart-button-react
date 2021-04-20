@@ -1,9 +1,9 @@
 {
   "name": "react-paypal-smart-button",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "A simple paypal button, easy and quick to set up.",
   "main": "./lib/PayPalButton.js",
-  "homepage": "https://thepetersweeney.com/projects/paypal-react",
+  "homepage": "https://thepetersweeney.com/paypal-react",
   "repository": {
     "type": "git",
     "url": "https://github.com/derrmru/paypal-smart-button-react"
