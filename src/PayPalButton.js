@@ -1,6 +1,6 @@
 import React, { Fragment, useState, useEffect, useRef } from 'react';
 
-const PayPalButton = ({ price, description, clientId, currency }) => {
+const PayPalButton = ({ price, description, clientId, currency, paySubmit }) => {
     const [sdk, setSdk] = useState(false);
 
     //Paypal state
@@ -39,7 +39,7 @@ const PayPalButton = ({ price, description, clientId, currency }) => {
             onApprove: async (data, actions) => {
               const order = await actions.order.capture();
               console.log(order);
-              props.paySubmit()
+              paySubmit()
             },
             onError: err => {
               setError(err);

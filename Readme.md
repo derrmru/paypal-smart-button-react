@@ -26,6 +26,7 @@ function App() {
         description="YOUR_PRODUCT_DESCRIPTION"
         clientId="YOUR_PAYPAL_APP_CLIENT_ID"
         currency="USD"
+        paySubmit={() => handlePaypalSuccess()}
        />
   );
 }
@@ -40,6 +41,7 @@ price: number,
 description: string,
 clientId: string,
 currency: string  || this is a three digit currency code e.g. 'EUR', 'GBP' or 'USD'
+paySubmit: function || this function will be called following successful payment transaction in your application. Handle the successful transaction however you like.
 ```
 
 ## Dependencies
