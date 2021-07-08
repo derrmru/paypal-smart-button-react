@@ -39,7 +39,7 @@ const PayPalButton = ({ price, description, clientId, currency, paySubmit }) => 
             onApprove: async (data, actions) => {
               const order = await actions.order.capture();
               console.log(order);
-              paySubmit()
+              paySubmit(order)
             },
             onError: err => {
               setError(err);
