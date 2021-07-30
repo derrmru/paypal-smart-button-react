@@ -48,5 +48,9 @@ paySubmit: function || this function will be called following successful payment
 
 None, just use it in your react project.
 
+## Support My Work
+
+If you find this component useful or like my work, why not buy me a coffee! - [Click Here](https://www.buymeacoffee.com/derrmru)
+
 ## That's it!
 
